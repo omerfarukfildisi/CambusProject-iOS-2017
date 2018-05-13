@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4866974820A86CA00093575C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866974720A86CA00093575C /* AppDelegate.swift */; };
+		4866974A20A86CA00093575C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866974920A86CA00093575C /* ViewController.swift */; };
+		4866974D20A86CA00093575C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4866974B20A86CA00093575C /* Main.storyboard */; };
+		4866974F20A86CA00093575C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4866974E20A86CA00093575C /* Assets.xcassets */; };
+		4866975220A86CA00093575C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4866975020A86CA00093575C /* LaunchScreen.storyboard */; };
+		4866975D20A86CA00093575C /* Final_Project___KamBu_sTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866975C20A86CA00093575C /* Final_Project___KamBu_sTests.swift */; };
+		4866976820A86CA00093575C /* Final_Project___KamBu_sUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866976720A86CA00093575C /* Final_Project___KamBu_sUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4866975920A86CA00093575C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4866973C20A86CA00093575C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4866974320A86CA00093575C;
+			remoteInfo = "Final Project - KamBüs";
+		};
+		4866976420A86CA00093575C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4866973C20A86CA00093575C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4866974320A86CA00093575C;
+			remoteInfo = "Final Project - KamBüs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4866974420A86CA00093575C /* Final Project - KamBüs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project - KamBüs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4866974720A86CA00093575C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4866974920A86CA00093575C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4866974C20A86CA00093575C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4866974E20A86CA00093575C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4866975120A86CA00093575C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4866975320A86CA00093575C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4866975820A86CA00093575C /* Final Project - KamBüsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project - KamBüsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4866975C20A86CA00093575C /* Final_Project___KamBu_sTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Final_Project___KamBu_sTests.swift"; sourceTree = "<group>"; };
+		4866975E20A86CA00093575C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4866976320A86CA00093575C /* Final Project - KamBüsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project - KamBüsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4866976720A86CA00093575C /* Final_Project___KamBu_sUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Final_Project___KamBu_sUITests.swift"; sourceTree = "<group>"; };
+		4866976920A86CA00093575C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4866974120A86CA00093575C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4866975520A86CA00093575C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4866976020A86CA00093575C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4866973B20A86CA00093575C = {
+			isa = PBXGroup;
+			children = (
+				4866974620A86CA00093575C /* Final Project - KamBüs */,
+				4866975B20A86CA00093575C /* Final Project - KamBüsTests */,
+				4866976620A86CA00093575C /* Final Project - KamBüsUITests */,
+				4866974520A86CA00093575C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4866974520A86CA00093575C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4866974420A86CA00093575C /* Final Project - KamBüs.app */,
+				4866975820A86CA00093575C /* Final Project - KamBüsTests.xctest */,
+				4866976320A86CA00093575C /* Final Project - KamBüsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4866974620A86CA00093575C /* Final Project - KamBüs */ = {
+			isa = PBXGroup;
+			children = (
+				4866974720A86CA00093575C /* AppDelegate.swift */,
+				4866974920A86CA00093575C /* ViewController.swift */,
+				4866974B20A86CA00093575C /* Main.storyboard */,
+				4866974E20A86CA00093575C /* Assets.xcassets */,
+				4866975020A86CA00093575C /* LaunchScreen.storyboard */,
+				4866975320A86CA00093575C /* Info.plist */,
+			);
+			path = "Final Project - KamBüs";
+			sourceTree = "<group>";
+		};
+		4866975B20A86CA00093575C /* Final Project - KamBüsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4866975C20A86CA00093575C /* Final_Project___KamBu_sTests.swift */,
+				4866975E20A86CA00093575C /* Info.plist */,
+			);
+			path = "Final Project - KamBüsTests";
+			sourceTree = "<group>";
+		};
+		4866976620A86CA00093575C /* Final Project - KamBüsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4866976720A86CA00093575C /* Final_Project___KamBu_sUITests.swift */,
+				4866976920A86CA00093575C /* Info.plist */,
+			);
+			path = "Final Project - KamBüsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4866974320A86CA00093575C /* Final Project - KamBüs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4866976C20A86CA00093575C /* Build configuration list for PBXNativeTarget "Final Project - KamBüs" */;
+			buildPhases = (
+				4866974020A86CA00093575C /* Sources */,
+				4866974120A86CA00093575C /* Frameworks */,
+				4866974220A86CA00093575C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Final Project - KamBüs";
+			productName = "Final Project - KamBüs";
+			productReference = 4866974420A86CA00093575C /* Final Project - KamBüs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4866975720A86CA00093575C /* Final Project - KamBüsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4866976F20A86CA00093575C /* Build configuration list for PBXNativeTarget "Final Project - KamBüsTests" */;
+			buildPhases = (
+				4866975420A86CA00093575C /* Sources */,
+				4866975520A86CA00093575C /* Frameworks */,
+				4866975620A86CA00093575C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4866975A20A86CA00093575C /* PBXTargetDependency */,
+			);
+			name = "Final Project - KamBüsTests";
+			productName = "Final Project - KamBüsTests";
+			productReference = 4866975820A86CA00093575C /* Final Project - KamBüsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4866976220A86CA00093575C /* Final Project - KamBüsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4866977220A86CA00093575C /* Build configuration list for PBXNativeTarget "Final Project - KamBüsUITests" */;
+			buildPhases = (
+				4866975F20A86CA00093575C /* Sources */,
+				4866976020A86CA00093575C /* Frameworks */,
+				4866976120A86CA00093575C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4866976520A86CA00093575C /* PBXTargetDependency */,
+			);
+			name = "Final Project - KamBüsUITests";
+			productName = "Final Project - KamBüsUITests";
+			productReference = 4866976320A86CA00093575C /* Final Project - KamBüsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4866973C20A86CA00093575C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ömer Faruk Fildişi / Arda Zafer İbin";
+				TargetAttributes = {
+					4866974320A86CA00093575C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4866975720A86CA00093575C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4866974320A86CA00093575C;
+					};
+					4866976220A86CA00093575C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4866974320A86CA00093575C;
+					};
+				};
+			};
+			buildConfigurationList = 4866973F20A86CA00093575C /* Build configuration list for PBXProject "Final Project - KamBüs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4866973B20A86CA00093575C;
+			productRefGroup = 4866974520A86CA00093575C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4866974320A86CA00093575C /* Final Project - KamBüs */,
+				4866975720A86CA00093575C /* Final Project - KamBüsTests */,
+				4866976220A86CA00093575C /* Final Project - KamBüsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4866974220A86CA00093575C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4866975220A86CA00093575C /* LaunchScreen.storyboard in Resources */,
+				4866974F20A86CA00093575C /* Assets.xcassets in Resources */,
+				4866974D20A86CA00093575C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4866975620A86CA00093575C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4866976120A86CA00093575C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4866974020A86CA00093575C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4866974A20A86CA00093575C /* ViewController.swift in Sources */,
+				4866974820A86CA00093575C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4866975420A86CA00093575C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4866975D20A86CA00093575C /* Final_Project___KamBu_sTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4866975F20A86CA00093575C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4866976820A86CA00093575C /* Final_Project___KamBu_sUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4866975A20A86CA00093575C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4866974320A86CA00093575C /* Final Project - KamBüs */;
+			targetProxy = 4866975920A86CA00093575C /* PBXContainerItemProxy */;
+		};
+		4866976520A86CA00093575C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4866974320A86CA00093575C /* Final Project - KamBüs */;
+			targetProxy = 4866976420A86CA00093575C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4866974B20A86CA00093575C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4866974C20A86CA00093575C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4866975020A86CA00093575C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4866975120A86CA00093575C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4866976A20A86CA00093575C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4866976B20A86CA00093575C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4866976D20A86CA00093575C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project - KamBüs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "OMER---ARDA.Final-Project---KamBu-s";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4866976E20A86CA00093575C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project - KamBüs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "OMER---ARDA.Final-Project---KamBu-s";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4866977020A86CA00093575C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project - KamBüsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "OMER---ARDA.Final-Project---KamBu-sTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Project - KamBüs.app/Final Project - KamBüs";
+			};
+			name = Debug;
+		};
+		4866977120A86CA00093575C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project - KamBüsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "OMER---ARDA.Final-Project---KamBu-sTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Project - KamBüs.app/Final Project - KamBüs";
+			};
+			name = Release;
+		};
+		4866977320A86CA00093575C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project - KamBüsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "OMER---ARDA.Final-Project---KamBu-sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Project - KamBüs";
+			};
+			name = Debug;
+		};
+		4866977420A86CA00093575C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Project - KamBüsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "OMER---ARDA.Final-Project---KamBu-sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Project - KamBüs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4866973F20A86CA00093575C /* Build configuration list for PBXProject "Final Project - KamBüs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4866976A20A86CA00093575C /* Debug */,
+				4866976B20A86CA00093575C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4866976C20A86CA00093575C /* Build configuration list for PBXNativeTarget "Final Project - KamBüs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4866976D20A86CA00093575C /* Debug */,
+				4866976E20A86CA00093575C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4866976F20A86CA00093575C /* Build configuration list for PBXNativeTarget "Final Project - KamBüsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4866977020A86CA00093575C /* Debug */,
+				4866977120A86CA00093575C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4866977220A86CA00093575C /* Build configuration list for PBXNativeTarget "Final Project - KamBüsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4866977320A86CA00093575C /* Debug */,
+				4866977420A86CA00093575C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4866973C20A86CA00093575C /* Project object */;
+}
