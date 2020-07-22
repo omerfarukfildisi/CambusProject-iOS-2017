@@ -7,31 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		485618FA20A9E7ED00243801 /* Final_Project___KamBu_s.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48AD439120A9DCAF004E4E9F /* Final_Project___KamBu_s.xcdatamodeld */; };
 		4866974820A86CA00093575C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866974720A86CA00093575C /* AppDelegate.swift */; };
 		4866974A20A86CA00093575C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866974920A86CA00093575C /* ViewController.swift */; };
 		4866974D20A86CA00093575C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4866974B20A86CA00093575C /* Main.storyboard */; };
 		4866974F20A86CA00093575C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4866974E20A86CA00093575C /* Assets.xcassets */; };
 		4866975220A86CA00093575C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4866975020A86CA00093575C /* LaunchScreen.storyboard */; };
-		4866975D20A86CA00093575C /* Final_Project___KamBu_sTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866975C20A86CA00093575C /* Final_Project___KamBu_sTests.swift */; };
-		4866976820A86CA00093575C /* Final_Project___KamBu_sUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866976720A86CA00093575C /* Final_Project___KamBu_sUITests.swift */; };
+		4866977620A892BD0093575C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866977520A892BD0093575C /* FirstViewController.swift */; };
+		48AD439720A9E1EC004E4E9F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AD439420A9DDBF004E4E9F /* RegisterViewController.swift */; };
+		48AD43E220A9E60E004E4E9F /* Final Project - KamBüs.app in Resources */ = {isa = PBXBuildFile; fileRef = 4866974420A86CA00093575C /* Final Project - KamBüs.app */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4866975920A86CA00093575C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4866973C20A86CA00093575C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4866974320A86CA00093575C;
-			remoteInfo = "Final Project - KamBüs";
-		};
-		4866976420A86CA00093575C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4866973C20A86CA00093575C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4866974320A86CA00093575C;
-			remoteInfo = "Final Project - KamBüs";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4866974420A86CA00093575C /* Final Project - KamBüs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project - KamBüs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +26,13 @@
 		4866974E20A86CA00093575C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4866975120A86CA00093575C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4866975320A86CA00093575C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4866975820A86CA00093575C /* Final Project - KamBüsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project - KamBüsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4866975C20A86CA00093575C /* Final_Project___KamBu_sTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Final_Project___KamBu_sTests.swift"; sourceTree = "<group>"; };
-		4866975E20A86CA00093575C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4866976320A86CA00093575C /* Final Project - KamBüsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Project - KamBüsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4866976720A86CA00093575C /* Final_Project___KamBu_sUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Final_Project___KamBu_sUITests.swift"; sourceTree = "<group>"; };
-		4866976920A86CA00093575C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4866977520A892BD0093575C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		48AD439220A9DCAF004E4E9F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		48AD439420A9DDBF004E4E9F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4866974120A86CA00093575C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4866975520A86CA00093575C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4866976020A86CA00093575C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				4866974620A86CA00093575C /* Final Project - KamBüs */,
-				4866975B20A86CA00093575C /* Final Project - KamBüsTests */,
-				4866976620A86CA00093575C /* Final Project - KamBüsUITests */,
 				4866974520A86CA00093575C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,11 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				4866974420A86CA00093575C /* Final Project - KamBüs.app */,
-				4866975820A86CA00093575C /* Final Project - KamBüsTests.xctest */,
-				4866976320A86CA00093575C /* Final Project - KamBüsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		4866974620A86CA00093575C /* Final Project - KamBüs */ = {
 			isa = PBXGroup;
@@ -100,29 +65,14 @@
 				4866974720A86CA00093575C /* AppDelegate.swift */,
 				4866974920A86CA00093575C /* ViewController.swift */,
 				4866974B20A86CA00093575C /* Main.storyboard */,
+				48AD439420A9DDBF004E4E9F /* RegisterViewController.swift */,
+				4866977520A892BD0093575C /* FirstViewController.swift */,
 				4866974E20A86CA00093575C /* Assets.xcassets */,
 				4866975020A86CA00093575C /* LaunchScreen.storyboard */,
 				4866975320A86CA00093575C /* Info.plist */,
+				48AD439120A9DCAF004E4E9F /* Final_Project___KamBu_s.xcdatamodeld */,
 			);
 			path = "Final Project - KamBüs";
-			sourceTree = "<group>";
-		};
-		4866975B20A86CA00093575C /* Final Project - KamBüsTests */ = {
-			isa = PBXGroup;
-			children = (
-				4866975C20A86CA00093575C /* Final_Project___KamBu_sTests.swift */,
-				4866975E20A86CA00093575C /* Info.plist */,
-			);
-			path = "Final Project - KamBüsTests";
-			sourceTree = "<group>";
-		};
-		4866976620A86CA00093575C /* Final Project - KamBüsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4866976720A86CA00093575C /* Final_Project___KamBu_sUITests.swift */,
-				4866976920A86CA00093575C /* Info.plist */,
-			);
-			path = "Final Project - KamBüsUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +95,6 @@
 			productReference = 4866974420A86CA00093575C /* Final Project - KamBüs.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4866975720A86CA00093575C /* Final Project - KamBüsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4866976F20A86CA00093575C /* Build configuration list for PBXNativeTarget "Final Project - KamBüsTests" */;
-			buildPhases = (
-				4866975420A86CA00093575C /* Sources */,
-				4866975520A86CA00093575C /* Frameworks */,
-				4866975620A86CA00093575C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4866975A20A86CA00093575C /* PBXTargetDependency */,
-			);
-			name = "Final Project - KamBüsTests";
-			productName = "Final Project - KamBüsTests";
-			productReference = 4866975820A86CA00093575C /* Final Project - KamBüsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4866976220A86CA00093575C /* Final Project - KamBüsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4866977220A86CA00093575C /* Build configuration list for PBXNativeTarget "Final Project - KamBüsUITests" */;
-			buildPhases = (
-				4866975F20A86CA00093575C /* Sources */,
-				4866976020A86CA00093575C /* Frameworks */,
-				4866976120A86CA00093575C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4866976520A86CA00093575C /* PBXTargetDependency */,
-			);
-			name = "Final Project - KamBüsUITests";
-			productName = "Final Project - KamBüsUITests";
-			productReference = 4866976320A86CA00093575C /* Final Project - KamBüsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +107,6 @@
 				TargetAttributes = {
 					4866974320A86CA00093575C = {
 						CreatedOnToolsVersion = 9.3;
-					};
-					4866975720A86CA00093575C = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 4866974320A86CA00093575C;
-					};
-					4866976220A86CA00093575C = {
-						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 4866974320A86CA00093575C;
 					};
 				};
 			};
@@ -218,8 +124,6 @@
 			projectRoot = "";
 			targets = (
 				4866974320A86CA00093575C /* Final Project - KamBüs */,
-				4866975720A86CA00093575C /* Final Project - KamBüsTests */,
-				4866976220A86CA00093575C /* Final Project - KamBüsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,20 +136,7 @@
 				4866975220A86CA00093575C /* LaunchScreen.storyboard in Resources */,
 				4866974F20A86CA00093575C /* Assets.xcassets in Resources */,
 				4866974D20A86CA00093575C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4866975620A86CA00093575C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4866976120A86CA00093575C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				48AD43E220A9E60E004E4E9F /* Final Project - KamBüs.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,41 +147,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4866977620A892BD0093575C /* FirstViewController.swift in Sources */,
+				48AD439720A9E1EC004E4E9F /* RegisterViewController.swift in Sources */,
 				4866974A20A86CA00093575C /* ViewController.swift in Sources */,
+				485618FA20A9E7ED00243801 /* Final_Project___KamBu_s.xcdatamodeld in Sources */,
 				4866974820A86CA00093575C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4866975420A86CA00093575C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4866975D20A86CA00093575C /* Final_Project___KamBu_sTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4866975F20A86CA00093575C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4866976820A86CA00093575C /* Final_Project___KamBu_sUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4866975A20A86CA00093575C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4866974320A86CA00093575C /* Final Project - KamBüs */;
-			targetProxy = 4866975920A86CA00093575C /* PBXContainerItemProxy */;
-		};
-		4866976520A86CA00093575C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4866974320A86CA00093575C /* Final Project - KamBüs */;
-			targetProxy = 4866976420A86CA00093575C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4866974B20A86CA00093575C /* Main.storyboard */ = {
@@ -460,84 +325,6 @@
 			};
 			name = Release;
 		};
-		4866977020A86CA00093575C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Final Project - KamBüsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "OMER---ARDA.Final-Project---KamBu-sTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Project - KamBüs.app/Final Project - KamBüs";
-			};
-			name = Debug;
-		};
-		4866977120A86CA00093575C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Final Project - KamBüsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "OMER---ARDA.Final-Project---KamBu-sTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Project - KamBüs.app/Final Project - KamBüs";
-			};
-			name = Release;
-		};
-		4866977320A86CA00093575C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Final Project - KamBüsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "OMER---ARDA.Final-Project---KamBu-sUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Final Project - KamBüs";
-			};
-			name = Debug;
-		};
-		4866977420A86CA00093575C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Final Project - KamBüsUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "OMER---ARDA.Final-Project---KamBu-sUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Final Project - KamBüs";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -559,25 +346,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4866976F20A86CA00093575C /* Build configuration list for PBXNativeTarget "Final Project - KamBüsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4866977020A86CA00093575C /* Debug */,
-				4866977120A86CA00093575C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4866977220A86CA00093575C /* Build configuration list for PBXNativeTarget "Final Project - KamBüsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4866977320A86CA00093575C /* Debug */,
-				4866977420A86CA00093575C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48AD439120A9DCAF004E4E9F /* Final_Project___KamBu_s.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48AD439220A9DCAF004E4E9F /* Model.xcdatamodel */,
+			);
+			currentVersion = 48AD439220A9DCAF004E4E9F /* Model.xcdatamodel */;
+			path = "Final_Project___KamBu_s.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4866973C20A86CA00093575C /* Project object */;
 }
